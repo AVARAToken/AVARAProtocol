@@ -1,7 +1,3 @@
-/**
- *Submitted for verification at BscScan.com on 2021-07-31
-*/
-
 // File: @openzeppelin/contracts/utils/Address.sol
 
 // SPDX-License-Identifier: MIT

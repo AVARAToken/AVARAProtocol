@@ -2598,7 +2598,7 @@ contract AVARA is
     _name = name_;
     _symbol = symbol_;
     _totalSupply = supply_ * (10**uint256(_decimals));
-    _numTokensSellToAddToLiquidity = (_totalSupply * liquidityThresholdPercentage_) / 10000;
+    _numTokensSellToAddToLiquidity = (_totalSupply * liquidityThresholdPercentage_) / 1000000;
 
     _dividendRewardToken = addresses_[0];
     _marketingWallet = addresses_[1];

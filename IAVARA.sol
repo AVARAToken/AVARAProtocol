@@ -2563,7 +2563,7 @@ contract AVARA is
   uint256 private _maxWalletAmount;
   uint256 private _perviousMaxWalletAmount;
 
-  uint256 public _numTokensSellToAddToLiquidity;
+  uint256 private _numTokensSellToAddToLiquidity;
 
   bool private _sniperProtection = true;
   bool private _hasLiqBeenAdded = false;
